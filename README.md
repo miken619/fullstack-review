@@ -18,6 +18,11 @@ Then, npm install. This repo uses webpack, so you may need to globally install w
 $ npm install
 ```
 
+Then create the database directory where our MongoDB data will be stored:
+```bash
+mkdir -p ./database/data/db
+```
+
 And in separate terminal tabs:
 ```bash
 $ npm run react-dev
